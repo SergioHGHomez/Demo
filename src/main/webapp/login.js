@@ -17,7 +17,7 @@ window.location.href =
 }
 else
 {
-alert("No xiste el Usuario");
+alert("Usuario o clave incorrectos ");
 }
  });
  });

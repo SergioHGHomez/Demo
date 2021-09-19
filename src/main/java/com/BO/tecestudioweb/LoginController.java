@@ -17,8 +17,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 public class LoginController {
 	
 	@RequestMapping("/loginusuario2")
-	public Map<String, Boolean> validarlogin2(String usuario, String password)
-	//recibe esta cadena y convierte en un objeto de tipo cliente
+	public Map<String, Boolean> validarlogin2(String usuario, String password)//recibe esta cadena y convierte en un objeto de tipo cliente
 	{
 	 ArrayList<LoginVO> miusuario = new ArrayList<LoginVO>();//Crea el objeto arryList
 

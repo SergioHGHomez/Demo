@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>logIn</title>
 <script
 src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
@@ -12,7 +12,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="login.js"></script><!-- Incorporo al proyecto javascript -->
 </head>
 <body>
-<h1>CRECDENCIASLES DE INGRESO A LA TIENDA VIRTUAL</h1>
+<h1>TecEstudio</h1>
 <form>
 <table>
 <tr>
@@ -21,7 +21,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </tr>
 <tr>
 <td><label>Clave:</label></td>
-<td><input Id="password" type="text" value=""></td>
+<td><input Id="password" type="password" value=""></td>
 </tr>
 <tr><td><input type="button" value="Enviaru"
 id="btn_Enviaru"></td></tr>
